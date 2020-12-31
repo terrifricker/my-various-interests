@@ -14,5 +14,16 @@ body {
 .grid-container {
   display: grid;
   gap: 25px;
+  margin: 15px;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.grid-content {
+  border: 2pt solid black;
+  background-color: black;
+  color: white;
+}
+
+img {
+  margin-top: 1em;
 }
